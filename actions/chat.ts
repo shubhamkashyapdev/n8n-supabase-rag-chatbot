@@ -13,7 +13,7 @@ export const chat = async ({ userId, inputMessage }: Chat) => {
     };
 
     const response = await fetch(
-      "https://shubhamkashyap.app.n8n.cloud/webhook/invoke_agent",
+      "https://n8n.envisiontech.agency/webhook/invoke_agent",
       {
         method: "POST",
         headers: {
